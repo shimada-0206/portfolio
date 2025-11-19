@@ -1,0 +1,17 @@
+.red {
+  color: red;
+}
+
+button {
+  width: 200px;
+  height: 60px;
+  border-radius: 30px; /* カプセル型になります */
+}
+
+body {
+  text-align: center;
+}
+
+button {
+  font-size: 20px;  /* ここの数字を大きくします */
+}
