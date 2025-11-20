@@ -1,0 +1,29 @@
+/* 全体を真ん中に寄せる */
+body {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* ボタンのデザイン */
+button {
+  width: 200px;        /* 横幅 */
+  height: 60px;        /* 高さ */
+  border-radius: 30px; /* カプセル型 */
+  font-size: 20px;     /* 文字の大きさ */
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+}
+
+/* 変化後の赤文字 */
+.red {
+  color: red;
+}
+
+/* 画像（最初は隠しておく） */
+#taka-photo {
+  display: none;       /* ★最初は見えない */
+  margin-top: 30px;
+  width: 300px;
+  border-radius: 15px;
+}
